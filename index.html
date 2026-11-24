@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="루메아 아이스크림의 이달의 맛, 메뉴, 이벤트, 매장과 루메아 모먼트를 만나보세요.">
+  <meta name="theme-color" content="#ffffff">
+  <title>LUMEA 루메아</title>
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" sizes="16x16 32x32 48x48 64x64">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문 바로가기</a>
+  <header id="top" class="site-header">
+    <div class="header-inner">
+      <a class="header-logo" href="#top" aria-label="루메아 홈">
+        <img src="images/lumea-logo.png" width="183" height="68" alt="LUMEA">
+      </a>
+      <nav class="main-nav" aria-label="주 메뉴">
+        <a href="#brand">BRAND</a>
+        <a href="#menu">MENU</a>
+        <a href="goods.html">GOODS</a>
+        <a href="#store">STORE</a>
+        <a href="#event">EVENT</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <h1 class="sr-only">LUMEA 루메아 아이스크림</h1>
+    <section class="hero" aria-label="루메아 메인 배너">
+      <img class="hero-slide" data-active src="images/hero.webp" width="2400" height="1827" alt="루메아 이달의 맛, 체리 주빌리" fetchpriority="high">
+      <img class="hero-slide" src="images/hero-drinks.webp" width="2400" height="1827" alt="루메아의 새로운 음료" fetchpriority="low" aria-hidden="true">
+      <img class="hero-slide" src="images/hero-flavors.webp" width="2400" height="1827" alt="루메아의 새로운 아이스크림 맛" fetchpriority="low" aria-hidden="true">
+      <img class="hero-slide" src="images/hero-signature.webp" width="2400" height="1827" alt="루메아 매장에서 아이스크림을 즐기는 모습" fetchpriority="low" aria-hidden="true">
+    </section>
+
+    <section id="menu" class="section container menu" aria-labelledby="menu-title">
+      <h2 id="menu-title">MENU</h2>
+      <div class="section-actions">
+        <button class="action" type="button" data-panel="menu-panel" aria-label="메뉴 더 보기">VIEW MORE <span aria-hidden="true">→</span></button>
+      </div>
+      <ul class="menu-grid">
+        <li><figure><div class="menu-photo"><img src="images/vanilla.webp" width="668" height="892" alt=""></div><figcaption>바닐라</figcaption></figure></li>
+        <li><figure><div class="menu-photo"><img src="images/green-tea.webp" width="664" height="886" alt=""></div><figcaption>그린티</figcaption></figure></li>
+        <li><figure><div class="menu-photo"><img src="images/strawberry.webp" width="688" height="918" alt=""></div><figcaption>스트로베리</figcaption></figure></li>
+        <li><figure><div class="menu-photo"><img src="images/chocolate.webp" width="676" height="902" alt=""></div><figcaption>초콜릿 무스</figcaption></figure></li>
+      </ul>
+    </section>
+
+    <section id="brand" class="section container brand" aria-labelledby="brand-title">
+      <img class="deco brand-heart" src="images/heart.png" alt="" aria-hidden="true">
+      <h2 id="brand-title">BRAND STORY</h2>
+      <div class="section-actions">
+        <button class="action" type="button" data-panel="brand-panel" aria-label="브랜드 스토리 더 보기">VIEW MORE <span aria-hidden="true">→</span></button>
+      </div>
+      <img class="banner" src="images/brand-story.webp" width="2000" height="623" alt="루메아 매장 테이블에 놓인 아이스크림과 선데" loading="lazy">
+    </section>
+
+    <section id="event" class="section container event" aria-labelledby="event-title">
+      <h2 id="event-title">EVENT</h2>
+      <div class="section-actions">
+        <button class="action" type="button" data-panel="event-panel" aria-label="이벤트 더 보기">VIEW MORE <span aria-hidden="true">→</span></button>
+      </div>
+      <img class="banner" src="images/event.webp" width="2000" height="429" alt="네이버페이 구매 시 블루베리 스무디 1+1" loading="lazy">
+    </section>
+
+    <div class="slogan loop-viewport" role="img" aria-label="Good ice cream, good time">
+      <div class="loop-track" data-loop="slogan" aria-hidden="true">
+        <div class="loop-group">
+          <span class="slogan-item">GOOD ICECREAM GOOD TIME <span class="slogan-star">★</span></span>
+        </div>
+      </div>
+    </div>
+
+    <section id="store" class="section container store" aria-labelledby="store-title">
+      <a class="store-photo" href="https://map.kakao.com/?q=서울특별시%20강남구%20봉은사로68길%2031" target="_blank" rel="noopener noreferrer" aria-label="루메아 매장 지도 열기">
+        <img src="images/store.webp" width="1257" height="964" alt="빨간 어닝과 체크무늬가 있는 루메아 매장" loading="lazy">
+      </a>
+      <div class="store-copy">
+        <h2 id="store-title">FIND STORE</h2>
+        <p>가까운 루메아 매장을<br>찾아보세요.</p>
+        <a class="action" href="https://map.kakao.com/?q=서울특별시%20강남구%20봉은사로68길%2031" target="_blank" rel="noopener noreferrer" aria-label="매장 위치 더 보기">VIEW MORE <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <section id="moment" class="section container moment" aria-labelledby="moment-title">
+      <img class="deco moment-star" src="images/star-red.png" alt="" aria-hidden="true">
+      <h2 id="moment-title">LUMEA MOMENT</h2>
+      <div class="section-actions">
+        <a class="action" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="인스타그램에서 더 보기">VIEW MORE <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="moment-window loop-viewport" role="region" aria-label="루메아 모먼트 사진" tabindex="0">
+        <div class="loop-track" data-loop="moment">
+          <div class="loop-group">
+            <img src="images/moment-1.webp" width="638" height="700" alt="빨간 테이블 위 여러 가지 맛의 루메아 아이스크림">
+            <img src="images/moment-2.webp" width="636" height="700" alt="햇살 아래 놓인 루메아 아이스크림과 음료">
+            <img src="images/moment-3.webp" width="636" height="700" alt="루메아 매장에서 아이스크림을 즐기는 두 친구">
+            <img src="images/moment-4.webp" width="638" height="700" alt="루메아 매장 앞에서 아이스크림을 즐기는 모습">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="goods" class="container order" aria-label="루메아 주문하기">
+      <img class="banner" src="images/order.webp" width="1326" height="362" alt="세 가지 맛의 아이스크림과 루메아 일러스트" loading="lazy">
+      <button class="action order-action" type="button" data-panel="order-panel" aria-label="루메아 주문 안내 보기">ORDER NOW <span aria-hidden="true">→</span></button>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <nav class="social-links" aria-label="SNS">
+        <a href="https://pf.kakao.com/" target="_blank" rel="noopener noreferrer" aria-label="카카오톡 채널"><img src="images/kakao.svg" width="35" height="34" alt=""></a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="인스타그램"><img src="images/instagram.svg" width="33" height="32" alt=""></a>
+        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="유튜브"><img src="images/youtube.svg" width="35" height="27" alt=""></a>
+      </nav>
+      <a class="footer-logo" href="#top" aria-label="루메아 홈">
+        <img src="images/lumea-logo.png" width="183" height="68" alt="LUMEA">
+      </a>
+      <address>
+        <span>대표자 이효진</span>
+        <span>사업자등록번호 080-006-00475</span>
+        <span>서울특별시 강남구 봉은사로68길 31</span>
+        <span>고객센터 <a href="tel:025452989">02-545-2989</a></span>
+        <span><a href="mailto:rumea@gmail.com">rumea@gmail.com</a></span>
+      </address>
+      <small>Copyright © 루메아 All Rights Reserved.</small>
+    </div>
+  </footer>
+
+  <dialog class="details" aria-labelledby="details-title">
+    <div class="details-body">
+      <form method="dialog"><button class="details-close" type="submit" aria-label="닫기">×</button></form>
+      <h2 id="details-title"></h2>
+      <div class="details-content"></div>
+    </div>
+  </dialog>
+
+  <template id="menu-panel" data-title="MENU">
+    <p>바닐라, 그린티, 스트로베리, 초콜릿 무스. 루메아의 네 가지 맛을 만나보세요.</p>
+    <p><strong>이달의 맛</strong> Cherry Jubilee</p>
+  </template>
+  <template id="brand-panel" data-title="BRAND STORY">
+    <img class="banner" src="images/brand-story.webp" width="2000" height="623" alt="루메아 아이스크림과 선데">
+    <p>GOOD ICECREAM GOOD TIME</p>
+    <p>루메아와 함께 달콤한 아이스크림 한 스쿱을 즐겨보세요.</p>
+  </template>
+  <template id="event-panel" data-title="EVENT">
+    <img class="banner" src="images/event.webp" width="2000" height="429" alt="네이버페이 구매 시 블루베리 스무디 1+1">
+    <p>블루베리 스무디 1+1 이벤트 시안입니다. 행사 일정과 참여 매장은 매장에서 확인해 주세요.</p>
+  </template>
+  <template id="order-panel" data-title="ORDER NOW">
+    <p>주문 가능 여부와 메뉴는 매장에 문의해 주세요.</p>
+    <a class="action" href="tel:025452989">매장에 전화하기</a>
+  </template>
+</body>
+</html>
